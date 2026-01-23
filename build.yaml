@@ -2,11 +2,11 @@ include:
 # Lily58 without dongle 不带dongle的Lily58
   # Lily58 with oled display(with nice_oled module) 适用于带oled的Lily58
   - board: nice_nano_v2 
-    shield: Lily58_L
+    shield: Lily58_L nice_oled
     snippet: studio-rpc-usb-uart 
     artifact-name: Lily58_left_oled
   - board: nice_nano_v2
-    shield: Lily58_R 
+    shield: Lily58_R nice_oled
     artifact-name: Lily58_right_oled
   # Lily58 with nice!view display(with nice_view_custom module) 适用于带nice_view的Lily58
   - board: nice_nano_v2
