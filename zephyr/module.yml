@@ -1,2 +1,3 @@
-mkdir boards/shields/<Lily58>
-mkdir boards/shields/<Lily58_dongle>
+build:
+  settings:
+    board_root: mkdir boards/shields/<Lily58>
