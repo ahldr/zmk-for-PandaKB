@@ -11,129 +11,66 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
-    macros {
-        mac_excl: mac_excl {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp EXCL>;
-        };
-        mac_at: mac_at {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp AT>;
-        };
-        mac_hash: mac_hash {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp HASH>;
-        };
-        mac_dllr: mac_dllr {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp DLLR>;
-        };
-        mac_prcnt: mac_prcnt {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp PRCNT>;
-        };
-        mac_caret: mac_caret {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp CARET>;
-        };
-        mac_amps: mac_amps {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp AMPS>;
-        };
-        mac_astrk: mac_astrk {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp ASTRK>;
-        };
-        mac_lpar: mac_lpar {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp LPAR>;
-        };
-        mac_rpar: mac_rpar {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp RPAR>;
-        };
-    };
-
     behaviors {
         gexcl: gui_excl {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&mac_excl>, <&kp N1>;
+            bindings = <&kp EXCL>, <&kp LG(N1)>;
             mods = <(MOD_LGUI|MOD_RGUI)>;
-            keep-mods = <(MOD_LGUI|MOD_RGUI)>;
         };
         gat: gui_at {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&mac_at>, <&kp N2>;
+            bindings = <&kp AT>, <&kp LG(N2)>;
             mods = <(MOD_LGUI|MOD_RGUI)>;
-            keep-mods = <(MOD_LGUI|MOD_RGUI)>;
         };
         ghash: gui_hash {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&mac_hash>, <&kp N3>;
+            bindings = <&kp HASH>, <&kp LG(N3)>;
             mods = <(MOD_LGUI|MOD_RGUI)>;
-            keep-mods = <(MOD_LGUI|MOD_RGUI)>;
         };
         gdllr: gui_dllr {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&mac_dllr>, <&kp N4>;
+            bindings = <&kp DLLR>, <&kp LG(N4)>;
             mods = <(MOD_LGUI|MOD_RGUI)>;
-            keep-mods = <(MOD_LGUI|MOD_RGUI)>;
         };
         gprcnt: gui_prcnt {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&mac_prcnt>, <&kp N5>;
+            bindings = <&kp PRCNT>, <&kp LG(N5)>;
             mods = <(MOD_LGUI|MOD_RGUI)>;
-            keep-mods = <(MOD_LGUI|MOD_RGUI)>;
         };
         gcaret: gui_caret {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&mac_caret>, <&kp N6>;
+            bindings = <&kp CARET>, <&kp LG(N6)>;
             mods = <(MOD_LGUI|MOD_RGUI)>;
-            keep-mods = <(MOD_LGUI|MOD_RGUI)>;
         };
         gamps: gui_amps {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&mac_amps>, <&kp N7>;
+            bindings = <&kp AMPS>, <&kp LG(N7)>;
             mods = <(MOD_LGUI|MOD_RGUI)>;
-            keep-mods = <(MOD_LGUI|MOD_RGUI)>;
         };
         gastrk: gui_astrk {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&mac_astrk>, <&kp N8>;
+            bindings = <&kp ASTRK>, <&kp LG(N8)>;
             mods = <(MOD_LGUI|MOD_RGUI)>;
-            keep-mods = <(MOD_LGUI|MOD_RGUI)>;
         };
         glpar: gui_lpar {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&mac_lpar>, <&kp N9>;
+            bindings = <&kp LPAR>, <&kp LG(N9)>;
             mods = <(MOD_LGUI|MOD_RGUI)>;
-            keep-mods = <(MOD_LGUI|MOD_RGUI)>;
         };
         grpar: gui_rpar {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&mac_rpar>, <&kp N0>;
+            bindings = <&kp RPAR>, <&kp LG(N0)>;
             mods = <(MOD_LGUI|MOD_RGUI)>;
-            keep-mods = <(MOD_LGUI|MOD_RGUI)>;
         };
     };
 
