@@ -1,1 +1,2 @@
-![image](https://github.com/Penguinchat/zmk-for-PandaKB.com-/blob/Description/images/Lily58_keymap.svg)
+![Lily58 Keymap](keymap-drawer/Lily58.svg)
+
