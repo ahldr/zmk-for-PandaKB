@@ -50,7 +50,7 @@ layers:
   - ','
   - .
   - /
-  - RSHFT
+  - LSHFT
   - LALT
   - {t: ESC, h: LCTRL}
   - SPACE
