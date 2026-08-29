@@ -2,16 +2,16 @@ layout: {zmk_keyboard: Lily58}
 layers:
   default:
   - '`'
-  - {t: '!', s: Gui+1}
-  - {t: '@', s: Gui+2}
-  - {t: '#', s: Gui+3}
-  - {t: $, s: Gui+4}
-  - {t: '%', s: Gui+5}
-  - {t: ^, s: Gui+6}
-  - {t: '&', s: Gui+7}
-  - {t: '*', s: Gui+8}
-  - {t: (, s: Gui+9}
-  - {t: ), s: Gui+0}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - '`'
   - TAB
   - Q
@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - '-'
-  - {t: ESC, h: LCTRL}
+  - lower
   - A
   - S
   - D
@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - ;
-  - RCTRL
+  - ''''
   - LSHFT
   - Z
   - X
@@ -44,20 +44,20 @@ layers:
   - V
   - B
   - PP
-  - {t: ▽, type: trans}
+  - adjust
   - N
   - M
   - ','
   - .
   - /
   - RSHFT
-  - lower
   - LALT
+  - {t: ESC, h: LCTRL}
   - SPACE
   - LGUI
   - RET
-  - {t: ▽, type: trans}
   - BSPC
+  - {t: ESC, h: RCTRL}
   - RGUI
   lower:
   - F1
@@ -78,39 +78,39 @@ layers:
   - '3'
   - '4'
   - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - '`'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
   - '='
-  - '{'
-  - '}'
+  - '['
+  - ']'
   - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -162,7 +162,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
