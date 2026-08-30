@@ -53,7 +53,7 @@ layers:
   - LSHFT
   - LALT
   - {t: ESC, h: LCTRL}
-  - SPACE
+  - {t: SPACE, h: adjust}
   - LGUI
   - RET
   - BSPC
