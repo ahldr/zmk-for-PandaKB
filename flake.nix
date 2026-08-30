@@ -23,7 +23,7 @@
         shield = "Lily58_%PART% Nice_view_config nice_view_custom";
         parts = [ "L" "R" ];
 
-        zephyrDepsHash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
+        zephyrDepsHash = "sha256-uuHPDJvU1btF5a6nIfiWEADAlrAHYbg3MBaVOlPciLM=";
 
         meta = {
           description = "ZMK firmware";
