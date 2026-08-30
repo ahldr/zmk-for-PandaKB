@@ -31,14 +31,14 @@
             // |  TAB  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   |   -   |
             // |ESC/L1 |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |   '   |
             // | SHIFT |  Z  |  X  |  C   |  V   |  B   |  PLAY  |  |SKIP/L2|  N   |  M    |  ,    |  .   |   /   | SHIFT |
-            //                     | ALT  |CTL/ESC| SPACE|  GUI   |  | ENTER | BSPC |CTL/ESC|  GUI  |
+            //                     | ALT  |CTL/ESC|SPACE/L2|  GUI   |  | ENTER | BSPC |CTL/ESC|  GUI  |
 
             bindings = <
 &kp GRAVE      &kp N1    &kp N2  &kp N3         &kp N4     &kp N5                               &kp N6    &kp N7    &kp N8         &kp N9    &kp N0    &kp GRAVE
 &kp TAB        &kp Q     &kp W   &kp E          &kp R      &kp T                                &kp Y     &kp U     &kp I          &kp O     &kp P     &kp MINUS
 &lt 1 ESC      &kp A     &kp S   &kp D          &kp F      &kp G                                &kp H     &kp J     &kp K          &kp L     &kp SEMI  &kp SQT
 &kp LSHFT      &kp Z     &kp X   &kp C          &kp V      &kp B      &kp C_PP    &lt 2 C_NEXT  &kp N     &kp M     &kp COMMA      &kp DOT   &kp FSLH  &kp LSHFT
-                                 &kp LALT       &mt LCTRL ESC &kp SPACE  &kp LGUI   &kp RET     &kp BSPC  &mt RCTRL ESC &kp RGUI
+                                 &kp LALT       &mt LCTRL ESC &lt 2 SPACE &kp LGUI   &kp RET    &kp BSPC  &mt RCTRL ESC &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_BRI_DN C_BRI_UP>;
