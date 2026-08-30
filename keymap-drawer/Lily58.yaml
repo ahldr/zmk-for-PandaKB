@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - '-'
-  - lower
+  - {t: ESC, h: lower}
   - A
   - S
   - D
@@ -44,7 +44,7 @@ layers:
   - V
   - B
   - PP
-  - adjust
+  - {t: NEXT, h: adjust}
   - N
   - M
   - ','
